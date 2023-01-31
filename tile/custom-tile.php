@@ -72,7 +72,7 @@ class Disciple_Tools_Meetings_Tile
 
                 <div class="section-subheader"><?php esc_html_e( "Meeting Date", 'disciple-tools-meetings' ) ?></div>
                 <div class="disciple_tools_meeting_date input-group">
-                    <input id="disciple_tools_meeting_date" class="input-group-field dt_date_picker" type="text" autocomplete="off" value="">
+                    <input id="disciple_tools_meeting_date" class="input-group-field dt_date_picker meeting_date" type="text" autocomplete="off" value="">
                     <div class="input-group-button">
                         <button id="disciple_tools_meeting_date-clear-button" class="button alert clear-date-button" data-inputid="disciple_tools_meeting_date" title="Delete Date" type="button">x</button>
                     </div>
@@ -153,7 +153,7 @@ class Disciple_Tools_Meetings_Tile
                 //Initialize Date Picker so it doesn't update the current post.
                 function date_picker_init(is_bulk = false, bulk_id = 0) {
                     // Determine field class name to be used.
-                    let field_class = (!is_bulk) ? `.dt_date_picker` : `.dt_date_picker-${bulk_id}`;
+                    let field_class = (!is_bulk) ? `.meeting_date.dt_date_picker` : `.dt_date_picker-${bulk_id}`;
 
                     // Assign on click listener.
                     $(field_class).datepicker({
