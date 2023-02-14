@@ -1,0 +1,15 @@
+#. Author URI of the plugin
+msgid "https://github.com/DiscipleTools"
+msgstr ""
+
+#. Plugin Name of the plugin
+msgid "Disciple.Tools - Meetings"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://github.com/DiscipleTools/disciple-tools-meetings"
+msgstr ""
+
+#. Description of the plugin
+msgid "Track your group meetings."
+msgstr ""
