@@ -1,56 +1,99 @@
-#, fuzzy
+# Copyright (C) 2023 
+# This file is distributed under the same license as the Disciple.Tools - Meetings plugin.
 msgid ""
 msgstr ""
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"Project-Id-Version: Disciple Tools - Meetings\n"
-"POT-Creation-Date: 2020-05-07 10:44+0100\n"
-"PO-Revision-Date: 2018-01-29 05:53-0700\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"Project-Id-Version: Disciple.Tools - Meetings 1.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disciple-tools-meetings\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3\n"
-"X-Poedit-Basepath: ..\n"
-"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
-"X-Poedit-WPHeader: disciple-tools-meetings.php\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
-"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPathExcluded-0: *.js\n"
-"X-Poedit-SearchPathExcluded-1: */libraries/*\n"
+"POT-Creation-Date: 2023-02-14T14:43:35+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: disciple-tools-meetings\n"
 
-#: disciple-tools-meetings.php:316
-msgid ""
-"'Disciple Tools - Meetings' plugin requires 'Disciple Tools' theme to "
-"work. Please activate 'Disciple Tools' theme or make sure it is latest "
-"version."
+#: post-type/module-base.php:107
+msgid "Date"
 msgstr ""
 
-#: disciple-tools-meetings.php:318
-#, php-format
-msgid "Current Disciple Tools version: %1$s, required version: %2$s"
+#: post-type/module-base.php:113
+#: post-type/module-base.php:239
+#: tile/custom-tile.php:81
+msgid "Meeting Topic"
 msgstr ""
 
-#: includes/admin/admin-menu-and-tabs.php:61
-msgid "Extensions (DT)"
+#: post-type/module-base.php:121
+#: post-type/module-base.php:247
+#: tile/custom-tile.php:84
+msgid "Meeting Notes"
 msgstr ""
 
-#: includes/admin/admin-menu-and-tabs.php:62
-#: includes/admin/admin-menu-and-tabs.php:90
+#: post-type/module-base.php:126
+msgid "Meeting Type"
+msgstr ""
+
+#: post-type/module-base.php:144
+#: post-type/module-base.php:266
+msgid "Attendees"
+msgstr ""
+
+#: post-type/module-base.php:152
+msgid "Assigned To"
+msgstr ""
+
+#: post-type/module-base.php:162
+msgid "Leaders"
+msgstr ""
+
+#: post-type/module-base.php:170
+msgid "Group"
+msgstr ""
+
+#: post-type/module-base.php:196
+msgctxt "Optional Documentation"
+msgid "The members who are attended this meeting."
+msgstr ""
+
+#: post-type/module-base.php:206
+#: post-type/module-base.php:225
+#: tile/custom-tile.php:32
 msgid "Meetings"
 msgstr ""
 
-#: includes/admin/admin-menu-and-tabs.php:77
-msgid "You do not have sufficient permissions to access this page."
+#: post-type/module-base.php:215
+msgid "Leader of meetings"
 msgstr ""
 
-#: includes/admin/admin-menu-and-tabs.php:93
-msgid "General"
+#: post-type/module-base.php:233
+msgid "Meetings Date"
 msgstr ""
 
-#: includes/admin/admin-menu-and-tabs.php:94
-msgid "Second"
+#: post-type/module-base.php:252
+msgid "Meetings Type"
+msgstr ""
+
+#: tile/custom-tile.php:62
+msgid "Create A Meetings"
+msgstr ""
+
+#: tile/custom-tile.php:64
+msgid "Who Attended the Meeting?"
+msgstr ""
+
+#: tile/custom-tile.php:73
+msgid "Meeting Date"
+msgstr ""
+
+#: tile/custom-tile.php:95
+msgid "Add A Meeting"
+msgstr ""
+
+#: tile/custom-tile.php:116
+msgid "Past Meetings"
+msgstr ""
+
+#: tile/custom-tile.php:123
+msgid "Create A Meeting"
 msgstr ""
