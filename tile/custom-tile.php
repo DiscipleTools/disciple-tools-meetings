@@ -59,7 +59,7 @@ class Disciple_Tools_Meetings_Tile
 
 
             <div class="reveal" id="create-meeting-modal" data-reveal data-reset-on-close>
-            <h3 class="section-header"><?php esc_html_e( "Create A Meetings", 'disciple-tools-meetings' ) ?></h3>
+            <h3 class="section-header"><?php esc_html_e( "Create A Meeting", 'disciple-tools-meetings' ) ?></h3>
 
                 <div class="section-subheader"><?php esc_html_e( "Who Attended the Meeting?", 'disciple-tools-meetings' ) ?></div>
 

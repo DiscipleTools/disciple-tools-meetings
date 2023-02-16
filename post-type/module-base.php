@@ -193,7 +193,7 @@ class Disciple_Tools_Meetings_Base  {
             // ];
             $fields['disciple_tools_meetings_attendees'] = [
                 "name" => __( 'Meeting Attendee List', 'disciple_tools' ),
-                'description' => _x( 'The members who are attended this meeting.', 'Optional Documentation', 'disciple-tools-meetings' ),
+                'description' => _x( 'The members who attended this meeting.', 'Optional Documentation', 'disciple-tools-meetings' ),
                 "type" => "connection",
                 "post_type" => "contacts",
                 "p2p_direction" => "to",
