@@ -1,106 +1,103 @@
+# Copyright (C) 2023 
+# This file is distributed under the same license as the Disciple.Tools - Meetings plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Disciple Tools - Plugin Starter Template\n"
+"Project-Id-Version: Disciple.Tools - Meetings 1.0.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disciple-tools-"
 "meetings\n"
 "POT-Creation-Date: 2023-02-14T14:43:35+00:00\n"
-"PO-Revision-Date: 2023-02-14 16:12+0000\n"
-"Last-Translator: Corsacca <corsacca@gmail.com>\n"
-"Language-Team: French <https://translate.disciple.tools/projects/"
-"disciple-tools/disciple-tools-meetings/fr_FR/>\n"
-"Language: fr_FR\n"
+"PO-Revision-Date: 2023-02-17 16:22+0000\n"
+"Last-Translator: Mike Allbutt <mikeallbutt@gmail.com>\n"
+"Language-Team: Spanish (Latin America) <https://translate.disciple.tools/"
+"projects/disciple-tools/disciple-tools-meetings/es_419/>\n"
+"Language: es_419\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.14.1\n"
-"X-Poedit-Basepath: ..\n"
-"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
-"X-Poedit-WPHeader: disciple-tools-plugin-starter-template.php\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;es"
-"c_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_n"
-"x_noop:3c,1,2;__ngettext_noop:1,2\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPathExcluded-0: *.js\n"
-"X-Poedit-SearchPathExcluded-1: */libraries/*\n"
+"X-Domain: disciple-tools-meetings\n"
 
 #: post-type/module-base.php:107
 msgid "Date"
-msgstr "Date"
+msgstr "Fecha"
 
-#: post-type/module-base.php:113 post-type/module-base.php:239
+#: post-type/module-base.php:113
+#: post-type/module-base.php:239
 #: tile/custom-tile.php:81
 msgid "Meeting Topic"
-msgstr "Sujet de la réunion"
+msgstr "Tema de reunión"
 
-#: post-type/module-base.php:121 post-type/module-base.php:247
+#: post-type/module-base.php:121
+#: post-type/module-base.php:247
 #: tile/custom-tile.php:84
 msgid "Meeting Notes"
-msgstr ""
+msgstr "Notas de la reunión"
 
 #: post-type/module-base.php:126
 msgid "Meeting Type"
-msgstr ""
+msgstr "Tipo de reunión"
 
-#: post-type/module-base.php:144 post-type/module-base.php:266
+#: post-type/module-base.php:144
+#: post-type/module-base.php:266
 msgid "Attendees"
-msgstr ""
+msgstr "Asistentes"
 
 #: post-type/module-base.php:152
 msgid "Assigned To"
-msgstr ""
+msgstr "Asignado a"
 
 #: post-type/module-base.php:162
 msgid "Leaders"
-msgstr ""
+msgstr "Líderes"
 
 #: post-type/module-base.php:170
 msgid "Group"
-msgstr ""
+msgstr "Grupo"
 
 #: post-type/module-base.php:196
 msgctxt "Optional Documentation"
 msgid "The members who are attended this meeting."
-msgstr ""
+msgstr "Los miembros que asistieron esta reunión."
 
-#: post-type/module-base.php:206 post-type/module-base.php:225
+#: post-type/module-base.php:206
+#: post-type/module-base.php:225
 #: tile/custom-tile.php:32
 msgid "Meetings"
-msgstr ""
+msgstr "Reuniones"
 
 #: post-type/module-base.php:215
 msgid "Leader of meetings"
-msgstr ""
+msgstr "Líder de las reuniones"
 
 #: post-type/module-base.php:233
 msgid "Meetings Date"
-msgstr ""
+msgstr "Fecha de reuniones"
 
 #: post-type/module-base.php:252
 msgid "Meetings Type"
-msgstr ""
+msgstr "Tipo de reuniones"
 
 #: tile/custom-tile.php:62
 msgid "Create A Meetings"
-msgstr ""
+msgstr "Crear una reunión"
 
 #: tile/custom-tile.php:64
 msgid "Who Attended the Meeting?"
-msgstr ""
+msgstr "¿Quién asistió a la reunión?"
 
 #: tile/custom-tile.php:73
 msgid "Meeting Date"
-msgstr ""
+msgstr "Fecha de la reunión"
 
 #: tile/custom-tile.php:95
 msgid "Add A Meeting"
-msgstr ""
+msgstr "Añadir una reunión"
 
 #: tile/custom-tile.php:116
 msgid "Past Meetings"
-msgstr ""
+msgstr "Reuniones pasadas"
 
 #: tile/custom-tile.php:123
 msgid "Create A Meeting"
-msgstr ""
+msgstr "Crear una reunión"
