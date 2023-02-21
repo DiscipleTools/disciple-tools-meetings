@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disciple-tools-"
 "meetings\n"
 "POT-Creation-Date: 2023-02-14T14:43:35+00:00\n"
-"PO-Revision-Date: 2023-02-14 16:12+0000\n"
+"PO-Revision-Date: 2023-02-21 11:22+0000\n"
 "Last-Translator: Corsacca <corsacca@gmail.com>\n"
 "Language-Team: French <https://translate.disciple.tools/projects/"
 "disciple-tools/disciple-tools-meetings/fr_FR/>\n"
@@ -53,7 +53,7 @@ msgstr ""
 
 #: post-type/module-base.php:162
 msgid "Leaders"
-msgstr ""
+msgstr "Dirigeants"
 
 #: post-type/module-base.php:170
 msgid "Group"
