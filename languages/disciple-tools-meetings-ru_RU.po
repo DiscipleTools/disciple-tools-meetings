@@ -1,0 +1,101 @@
+# Copyright (C) 2023 
+# This file is distributed under the same license as the Disciple.Tools - Meetings plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Disciple.Tools - Meetings 1.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disciple-tools-"
+"meetings\n"
+"POT-Creation-Date: 2023-02-14T14:43:35+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: disciple-tools-meetings\n"
+
+#: post-type/module-base.php:107
+msgid "Date"
+msgstr ""
+
+#: post-type/module-base.php:113
+#: post-type/module-base.php:239
+#: tile/custom-tile.php:81
+msgid "Meeting Topic"
+msgstr ""
+
+#: post-type/module-base.php:121
+#: post-type/module-base.php:247
+#: tile/custom-tile.php:84
+msgid "Meeting Notes"
+msgstr ""
+
+#: post-type/module-base.php:126
+msgid "Meeting Type"
+msgstr ""
+
+#: post-type/module-base.php:144
+#: post-type/module-base.php:266
+msgid "Attendees"
+msgstr ""
+
+#: post-type/module-base.php:152
+msgid "Assigned To"
+msgstr ""
+
+#: post-type/module-base.php:162
+msgid "Leaders"
+msgstr ""
+
+#: post-type/module-base.php:170
+msgid "Group"
+msgstr ""
+
+#: post-type/module-base.php:196
+msgctxt "Optional Documentation"
+msgid "The members who are attended this meeting."
+msgstr ""
+
+#: post-type/module-base.php:206
+#: post-type/module-base.php:225
+#: tile/custom-tile.php:32
+msgid "Meetings"
+msgstr ""
+
+#: post-type/module-base.php:215
+msgid "Leader of meetings"
+msgstr ""
+
+#: post-type/module-base.php:233
+msgid "Meetings Date"
+msgstr ""
+
+#: post-type/module-base.php:252
+msgid "Meetings Type"
+msgstr ""
+
+#: tile/custom-tile.php:62
+msgid "Create A Meetings"
+msgstr ""
+
+#: tile/custom-tile.php:64
+msgid "Who Attended the Meeting?"
+msgstr ""
+
+#: tile/custom-tile.php:73
+msgid "Meeting Date"
+msgstr ""
+
+#: tile/custom-tile.php:95
+msgid "Add A Meeting"
+msgstr ""
+
+#: tile/custom-tile.php:116
+msgid "Past Meetings"
+msgstr ""
+
+#: tile/custom-tile.php:123
+msgid "Create A Meeting"
+msgstr ""
