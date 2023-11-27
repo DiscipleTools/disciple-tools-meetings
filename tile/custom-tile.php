@@ -12,9 +12,9 @@ class Disciple_Tools_Meetings_Tile
     } // End instance()
 
     public function __construct(){
-        add_filter( 'dt_details_additional_tiles', [ $this, "dt_details_additional_tiles" ], 10, 2 );
-        add_action( "dt_details_additional_section", [ $this, "dt_add_section" ], 10, 2 );
-        add_action( "dt_details_additional_section", [ $this, "dt_add_meeting_submit" ], 21, 2 );
+        add_filter( 'dt_details_additional_tiles', [ $this, 'dt_details_additional_tiles' ], 10, 2 );
+        add_action( 'dt_details_additional_section', [ $this, 'dt_add_section' ], 10, 2 );
+        add_action( 'dt_details_additional_section', [ $this, 'dt_add_meeting_submit' ], 21, 2 );
     }
 
     /**
@@ -27,9 +27,9 @@ class Disciple_Tools_Meetings_Tile
      * @param string $post_type
      * @return mixed
      */
-    public function dt_details_additional_tiles( $tiles, $post_type = "" ) {
-        if ( $post_type === "groups" || $post_type === "meetings" ){
-            $tiles["disciple_tools_meetings"] = [ "label" => __( "Meetings", 'disciple-tools-meetings' ) ];
+    public function dt_details_additional_tiles( $tiles, $post_type = '' ) {
+        if ( $post_type === 'groups' || $post_type === 'meetings' ){
+            $tiles['disciple_tools_meetings'] = [ 'label' => __( 'Meetings', 'disciple-tools-meetings' ) ];
         }
         return $tiles;
     }
@@ -39,7 +39,7 @@ class Disciple_Tools_Meetings_Tile
         /**
          * @todo set the post type and the section key that you created in the dt_details_additional_tiles() function
          */
-        if ( $section === "disciple_tools_meetings" ){
+        if ( $section === 'disciple_tools_meetings' ){
             /**
              * These are two sets of key data:
              * $this_post is the details for this specific post
@@ -48,7 +48,7 @@ class Disciple_Tools_Meetings_Tile
              * You can pull any query data into this section and display it.
              */
             $this_post = DT_Posts::get_post( $post_type, get_the_ID() );
-            $post_type_fields = DT_Posts::get_post_settings( "meetings" );
+            $post_type_fields = DT_Posts::get_post_settings( 'meetings' );
 
             ?>
 
@@ -59,9 +59,9 @@ class Disciple_Tools_Meetings_Tile
 
 
             <div class="reveal" id="create-meeting-modal" data-reveal data-reset-on-close>
-            <h3 class="section-header"><?php esc_html_e( "Create A Meeting", 'disciple-tools-meetings' ) ?></h3>
+            <h3 class="section-header"><?php esc_html_e( 'Create A Meeting', 'disciple-tools-meetings' ) ?></h3>
 
-                <div class="section-subheader"><?php esc_html_e( "Who Attended the Meeting?", 'disciple-tools-meetings' ) ?></div>
+                <div class="section-subheader"><?php esc_html_e( 'Who Attended the Meeting?', 'disciple-tools-meetings' ) ?></div>
 
                 <div class="cell small-12 medium-4">
                     <div class="members-section" style="margin-bottom:10px">
@@ -70,7 +70,7 @@ class Disciple_Tools_Meetings_Tile
                 </div>
                 </div>
 
-                <div class="section-subheader"><?php esc_html_e( "Meeting Date", 'disciple-tools-meetings' ) ?></div>
+                <div class="section-subheader"><?php esc_html_e( 'Meeting Date', 'disciple-tools-meetings' ) ?></div>
                 <div class="disciple_tools_meeting_date input-group">
                     <input id="disciple_tools_meeting_date" class="input-group-field dt_date_picker meeting_date" type="text" autocomplete="off" value="">
                     <div class="input-group-button">
@@ -78,16 +78,16 @@ class Disciple_Tools_Meetings_Tile
                     </div>
                 </div>
 
-                <div class="section-subheader"><?php esc_html_e( "Meeting Topic", 'disciple-tools-meetings' ) ?></div>
+                <div class="section-subheader"><?php esc_html_e( 'Meeting Topic', 'disciple-tools-meetings' ) ?></div>
                 <input id="disciple_tools_meeting_topic" type="text" class="" value="">
 
-                <div class="section-subheader"><?php esc_html_e( "Meeting Notes", 'disciple-tools-meetings' ) ?></div>
+                <div class="section-subheader"><?php esc_html_e( 'Meeting Notes', 'disciple-tools-meetings' ) ?></div>
                 <textarea id="disciple_tools_meeting_notes" class="textarea"></textarea>
 
                 <select class="" id="disciple_tools_meeting_type">
-                    <?php foreach ( $post_type_fields['fields']['type']["default"] as $option_key => $option_value ):?>
+                    <?php foreach ( $post_type_fields['fields']['type']['default'] as $option_key => $option_value ):?>
                         <option value="<?php echo esc_html( $option_key )?>">
-                            <?php echo esc_html( $option_value["label"] ) ?>
+                            <?php echo esc_html( $option_value['label'] ) ?>
                         </option>
                     <?php endforeach; ?>
                 </select>
@@ -99,7 +99,7 @@ class Disciple_Tools_Meetings_Tile
     }
 
     public function dt_add_meeting_submit( $section, $post_type ) {
-        if ( $section === "disciple_tools_meetings" && $post_type !== "meetings" ){
+        if ( $section === 'disciple_tools_meetings' && $post_type !== 'meetings' ){
         /**
          * These are two sets of key data:
          * $this_post is the details for this specific post
@@ -109,7 +109,7 @@ class Disciple_Tools_Meetings_Tile
          */
             $this_post = DT_Posts::get_post( $post_type, get_the_ID() );
             $post_type_fields = DT_Posts::get_post_field_settings( $post_type );
-            $post_type_label = DT_Posts::get_post_settings( get_post_type() ?: "contacts" )['label_singular'];
+            $post_type_label = DT_Posts::get_post_settings( get_post_type() ?: 'contacts' )['label_singular'];
         /**
          * @todo set the post type and the section key that you created in the dt_details_additional_tiles() function
          */?>

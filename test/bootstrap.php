@@ -36,7 +36,7 @@ $_register_theme = function () use ( $_tests_dir, $_core_dir, $_theme_dir, $_plu
     add_filter( 'pre_option_stylesheet', function () use ( $current_theme ) {
         return $current_theme;
     } );
-    add_filter( "init", function() {
+    add_filter( 'init', function() {
         require_once( get_template_directory() . '/dt-core/setup-functions.php' );
         dt_setup_roles_and_permissions();
     }, 500, 0 );
