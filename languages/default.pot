@@ -2,16 +2,16 @@
 # This file is distributed under the same license as the Disciple.Tools - Meetings plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Disciple.Tools - Meetings 1.0.3\n"
+"Project-Id-Version: Disciple.Tools - Meetings 1.0.4\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disciple-tools-meetings\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-02-14T14:43:35+00:00\n"
+"POT-Creation-Date: 2023-11-27T10:41:05+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.7.1\n"
+"X-Generator: WP-CLI 2.9.0\n"
 "X-Domain: disciple-tools-meetings\n"
 
 #: post-type/module-base.php:107
@@ -53,7 +53,7 @@ msgstr ""
 
 #: post-type/module-base.php:196
 msgctxt "Optional Documentation"
-msgid "The members who are attended this meeting."
+msgid "The members who attended this meeting."
 msgstr ""
 
 #: post-type/module-base.php:206
@@ -75,7 +75,8 @@ msgid "Meetings Type"
 msgstr ""
 
 #: tile/custom-tile.php:62
-msgid "Create A Meetings"
+#: tile/custom-tile.php:123
+msgid "Create A Meeting"
 msgstr ""
 
 #: tile/custom-tile.php:64
@@ -92,8 +93,4 @@ msgstr ""
 
 #: tile/custom-tile.php:116
 msgid "Past Meetings"
-msgstr ""
-
-#: tile/custom-tile.php:123
-msgid "Create A Meeting"
 msgstr ""
