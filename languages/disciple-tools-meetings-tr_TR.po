@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Disciple.Tools - Meetings 1.0.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disciple-tools-"
 "meetings\n"
-"POT-Creation-Date: 2023-02-14T14:43:35+00:00\n"
+"POT-Creation-Date: 2023-11-27T10:41:05+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -20,14 +20,12 @@ msgstr ""
 msgid "Date"
 msgstr ""
 
-#: post-type/module-base.php:113
-#: post-type/module-base.php:239
+#: post-type/module-base.php:113 post-type/module-base.php:239
 #: tile/custom-tile.php:81
 msgid "Meeting Topic"
 msgstr ""
 
-#: post-type/module-base.php:121
-#: post-type/module-base.php:247
+#: post-type/module-base.php:121 post-type/module-base.php:247
 #: tile/custom-tile.php:84
 msgid "Meeting Notes"
 msgstr ""
@@ -36,8 +34,7 @@ msgstr ""
 msgid "Meeting Type"
 msgstr ""
 
-#: post-type/module-base.php:144
-#: post-type/module-base.php:266
+#: post-type/module-base.php:144 post-type/module-base.php:266
 msgid "Attendees"
 msgstr ""
 
@@ -55,11 +52,10 @@ msgstr ""
 
 #: post-type/module-base.php:196
 msgctxt "Optional Documentation"
-msgid "The members who are attended this meeting."
+msgid "The members who attended this meeting."
 msgstr ""
 
-#: post-type/module-base.php:206
-#: post-type/module-base.php:225
+#: post-type/module-base.php:206 post-type/module-base.php:225
 #: tile/custom-tile.php:32
 msgid "Meetings"
 msgstr ""
@@ -76,8 +72,8 @@ msgstr ""
 msgid "Meetings Type"
 msgstr ""
 
-#: tile/custom-tile.php:62
-msgid "Create A Meetings"
+#: tile/custom-tile.php:62 tile/custom-tile.php:123
+msgid "Create A Meeting"
 msgstr ""
 
 #: tile/custom-tile.php:64
@@ -94,8 +90,4 @@ msgstr ""
 
 #: tile/custom-tile.php:116
 msgid "Past Meetings"
-msgstr ""
-
-#: tile/custom-tile.php:123
-msgid "Create A Meeting"
 msgstr ""
