@@ -5,11 +5,11 @@ msgstr ""
 "Project-Id-Version: Disciple.Tools - Meetings 1.0.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disciple-tools-"
 "meetings\n"
-"POT-Creation-Date: 2023-02-14T14:43:35+00:00\n"
+"POT-Creation-Date: 2023-11-27T10:41:05+00:00\n"
 "PO-Revision-Date: 2023-02-16 16:13+0000\n"
 "Last-Translator: Mike Allbutt <mikeallbutt@gmail.com>\n"
-"Language-Team: Spanish <https://translate.disciple.tools/projects/"
-"disciple-tools/disciple-tools-meetings/es_ES/>\n"
+"Language-Team: Spanish <https://translate.disciple.tools/projects/disciple-"
+"tools/disciple-tools-meetings/es_ES/>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,14 +22,12 @@ msgstr ""
 msgid "Date"
 msgstr "Fecha"
 
-#: post-type/module-base.php:113
-#: post-type/module-base.php:239
+#: post-type/module-base.php:113 post-type/module-base.php:239
 #: tile/custom-tile.php:81
 msgid "Meeting Topic"
 msgstr "Tema de reunión"
 
-#: post-type/module-base.php:121
-#: post-type/module-base.php:247
+#: post-type/module-base.php:121 post-type/module-base.php:247
 #: tile/custom-tile.php:84
 msgid "Meeting Notes"
 msgstr "Notas de la reunión"
@@ -38,8 +36,7 @@ msgstr "Notas de la reunión"
 msgid "Meeting Type"
 msgstr "Tipo de reunión"
 
-#: post-type/module-base.php:144
-#: post-type/module-base.php:266
+#: post-type/module-base.php:144 post-type/module-base.php:266
 msgid "Attendees"
 msgstr "Asistentes"
 
@@ -56,12 +53,12 @@ msgid "Group"
 msgstr "Grupo"
 
 #: post-type/module-base.php:196
+#, fuzzy
 msgctxt "Optional Documentation"
-msgid "The members who are attended this meeting."
+msgid "The members who attended this meeting."
 msgstr "Los miembros que asistieron esta reunión."
 
-#: post-type/module-base.php:206
-#: post-type/module-base.php:225
+#: post-type/module-base.php:206 post-type/module-base.php:225
 #: tile/custom-tile.php:32
 msgid "Meetings"
 msgstr "Reuniones"
@@ -78,8 +75,8 @@ msgstr "Fecha de reuniones"
 msgid "Meetings Type"
 msgstr "Tipo de reuniones"
 
-#: tile/custom-tile.php:62
-msgid "Create A Meetings"
+#: tile/custom-tile.php:62 tile/custom-tile.php:123
+msgid "Create A Meeting"
 msgstr "Crear una reunión"
 
 #: tile/custom-tile.php:64
@@ -98,6 +95,5 @@ msgstr "Añadir una reunión"
 msgid "Past Meetings"
 msgstr "Reuniones pasadas"
 
-#: tile/custom-tile.php:123
-msgid "Create A Meeting"
-msgstr "Crear una reunión"
+#~ msgid "Create A Meetings"
+#~ msgstr "Crear una reunión"
