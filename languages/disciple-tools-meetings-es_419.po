@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disciple-tools-"
 "meetings\n"
 "POT-Creation-Date: 2023-11-27T10:41:05+00:00\n"
-"PO-Revision-Date: 2023-02-17 16:22+0000\n"
+"PO-Revision-Date: 2024-01-29 23:21+0000\n"
 "Last-Translator: Mike Allbutt <mikeallbutt@gmail.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.disciple.tools/"
 "projects/disciple-tools/disciple-tools-meetings/es_419/>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 5.3.1\n"
 "X-Domain: disciple-tools-meetings\n"
 
 #: post-type/module-base.php:107
@@ -53,10 +53,9 @@ msgid "Group"
 msgstr "Grupo"
 
 #: post-type/module-base.php:196
-#, fuzzy
 msgctxt "Optional Documentation"
 msgid "The members who attended this meeting."
-msgstr "Los miembros que asistieron esta reunión."
+msgstr "Los miembros que asistieron a esta reunión."
 
 #: post-type/module-base.php:206 post-type/module-base.php:225
 #: tile/custom-tile.php:32
