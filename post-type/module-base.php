@@ -53,8 +53,8 @@ class Disciple_Tools_Meetings_Base  {
     public function after_setup_theme(){
         if ( class_exists( 'Disciple_Tools_Post_Type_Template' ) ) {
 
-            $this->single_name = __( 'Meeting', 'disciple_tools_meetings' );
-            $this->plural_name = __( 'Meetings', 'disciple_tools_meetings' );
+            $this->single_name = __( 'Meeting', 'disciple-tools-meetings' );
+            $this->plural_name = __( 'Meetings', 'disciple-tools-meetings' );
 
             new Disciple_Tools_Post_Type_Template( $this->post_type, $this->single_name, $this->plural_name );
         }
@@ -130,12 +130,12 @@ class Disciple_Tools_Meetings_Base  {
                 'select_cannot_be_empty' => true,
                 'default' => apply_filters('disciple_tools_meetings_types', [
                         'default' => [
-                            'label' => __( 'In Person Meeting', 'disciple_tools_meetings' ),
-                            'description' => __( 'Face to Face Meeting', 'disciple_tools_meetings' )
+                            'label' => __( 'In Person Meeting', 'disciple-tools-meetings' ),
+                            'description' => __( 'Face to Face Meeting', 'disciple-tools-meetings' )
                         ],
                         'online' => [
-                            'label' => __( 'Online Meeting', 'disciple_tools_meetings' ),
-                            'description' => __( 'Online Audio or Video Call', 'disciple_tools_meetings' )
+                            'label' => __( 'Online Meeting', 'disciple-tools-meetings' ),
+                            'description' => __( 'Online Audio or Video Call', 'disciple-tools-meetings' )
                         ]
                     ]
                 ),
@@ -256,8 +256,8 @@ class Disciple_Tools_Meetings_Base  {
                 'select_cannot_be_empty' => true,
                 'default' => apply_filters('disciple_tools_meetings_types', [
                         'default' => [
-                            'label' => __( 'Default', 'disciple_tools_meetings' ),
-                            'description' => __( 'General purpose', 'disciple_tools_meetings' )
+                            'label' => __( 'Default', 'disciple-tools-meetings' ),
+                            'description' => __( 'General purpose', 'disciple-tools-meetings' )
                         ]
                     ]
                 ),
