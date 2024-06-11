@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Disciple Tools - Plugin Starter Template\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disciple-tools-"
 "meetings\n"
-"POT-Creation-Date: 2024-01-31T10:02:22+00:00\n"
+"POT-Creation-Date: 2024-05-14T09:10:44+00:00\n"
 "PO-Revision-Date: 2023-02-21 11:22+0000\n"
 "Last-Translator: Corsacca <corsacca@gmail.com>\n"
 "Language-Team: French <https://translate.disciple.tools/projects/disciple-"
@@ -25,6 +25,16 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "X-Poedit-SearchPathExcluded-1: */libraries/*\n"
 
+#: post-type/module-base.php:56
+#, fuzzy
+msgid "Meeting"
+msgstr "Sujet de la réunion"
+
+#: post-type/module-base.php:57 post-type/module-base.php:206
+#: post-type/module-base.php:225 tile/custom-tile.php:32
+msgid "Meetings"
+msgstr ""
+
 #: post-type/module-base.php:107
 msgid "Date"
 msgstr "Date"
@@ -41,6 +51,22 @@ msgstr ""
 
 #: post-type/module-base.php:126
 msgid "Meeting Type"
+msgstr ""
+
+#: post-type/module-base.php:133
+msgid "In Person Meeting"
+msgstr ""
+
+#: post-type/module-base.php:134
+msgid "Face to Face Meeting"
+msgstr ""
+
+#: post-type/module-base.php:137
+msgid "Online Meeting"
+msgstr ""
+
+#: post-type/module-base.php:138
+msgid "Online Audio or Video Call"
 msgstr ""
 
 #: post-type/module-base.php:144 post-type/module-base.php:266
@@ -64,11 +90,6 @@ msgctxt "Optional Documentation"
 msgid "The members who attended this meeting."
 msgstr ""
 
-#: post-type/module-base.php:206 post-type/module-base.php:225
-#: tile/custom-tile.php:32
-msgid "Meetings"
-msgstr ""
-
 #: post-type/module-base.php:215
 msgid "Leader of meetings"
 msgstr ""
@@ -79,6 +100,14 @@ msgstr ""
 
 #: post-type/module-base.php:252
 msgid "Meetings Type"
+msgstr ""
+
+#: post-type/module-base.php:259
+msgid "Default"
+msgstr ""
+
+#: post-type/module-base.php:260
+msgid "General purpose"
 msgstr ""
 
 #: tile/custom-tile.php:62 tile/custom-tile.php:123
