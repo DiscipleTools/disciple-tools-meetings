@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Disciple.Tools - Meetings 1.0.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disciple-tools-"
 "meetings\n"
-"POT-Creation-Date: 2024-01-31T10:02:22+00:00\n"
+"POT-Creation-Date: 2024-05-14T09:10:44+00:00\n"
 "PO-Revision-Date: 2024-01-29 23:21+0000\n"
 "Last-Translator: Mike Allbutt <mikeallbutt@gmail.com>\n"
 "Language-Team: Spanish <https://translate.disciple.tools/projects/disciple-"
@@ -17,6 +17,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.3.1\n"
 "X-Domain: disciple-tools-meetings\n"
+
+#: post-type/module-base.php:56
+#, fuzzy
+msgid "Meeting"
+msgstr "Reuniones"
+
+#: post-type/module-base.php:57 post-type/module-base.php:206
+#: post-type/module-base.php:225 tile/custom-tile.php:32
+msgid "Meetings"
+msgstr "Reuniones"
 
 #: post-type/module-base.php:107
 msgid "Date"
@@ -35,6 +45,25 @@ msgstr "Notas de la reunión"
 #: post-type/module-base.php:126
 msgid "Meeting Type"
 msgstr "Tipo de reunión"
+
+#: post-type/module-base.php:133
+#, fuzzy
+msgid "In Person Meeting"
+msgstr "Reuniones pasadas"
+
+#: post-type/module-base.php:134
+#, fuzzy
+msgid "Face to Face Meeting"
+msgstr "Crear una reunión"
+
+#: post-type/module-base.php:137
+#, fuzzy
+msgid "Online Meeting"
+msgstr "Reuniones"
+
+#: post-type/module-base.php:138
+msgid "Online Audio or Video Call"
+msgstr ""
 
 #: post-type/module-base.php:144 post-type/module-base.php:266
 msgid "Attendees"
@@ -57,11 +86,6 @@ msgctxt "Optional Documentation"
 msgid "The members who attended this meeting."
 msgstr "Los miembros que asistieron a esta reunión."
 
-#: post-type/module-base.php:206 post-type/module-base.php:225
-#: tile/custom-tile.php:32
-msgid "Meetings"
-msgstr "Reuniones"
-
 #: post-type/module-base.php:215
 msgid "Leader of meetings"
 msgstr "Líder de las reuniones"
@@ -73,6 +97,14 @@ msgstr "Fecha de reuniones"
 #: post-type/module-base.php:252
 msgid "Meetings Type"
 msgstr "Tipo de reuniones"
+
+#: post-type/module-base.php:259
+msgid "Default"
+msgstr ""
+
+#: post-type/module-base.php:260
+msgid "General purpose"
+msgstr ""
 
 #: tile/custom-tile.php:62 tile/custom-tile.php:123
 msgid "Create A Meeting"
