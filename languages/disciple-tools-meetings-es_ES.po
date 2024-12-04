@@ -5,8 +5,8 @@ msgstr ""
 "Project-Id-Version: Disciple.Tools - Meetings 1.0.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disciple-tools-"
 "meetings\n"
-"POT-Creation-Date: 2024-05-14T09:10:44+00:00\n"
-"PO-Revision-Date: 2024-01-29 23:21+0000\n"
+"POT-Creation-Date: 2024-12-04T09:36:50+00:00\n"
+"PO-Revision-Date: 2024-10-14 03:14+0000\n"
 "Last-Translator: Mike Allbutt <mikeallbutt@gmail.com>\n"
 "Language-Team: Spanish <https://translate.disciple.tools/projects/disciple-"
 "tools/disciple-tools-meetings/es_ES/>\n"
@@ -15,13 +15,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.7.2\n"
 "X-Domain: disciple-tools-meetings\n"
 
 #: post-type/module-base.php:56
-#, fuzzy
 msgid "Meeting"
-msgstr "Reuniones"
+msgstr "Reunión"
 
 #: post-type/module-base.php:57 post-type/module-base.php:206
 #: post-type/module-base.php:225 tile/custom-tile.php:32
@@ -47,23 +46,20 @@ msgid "Meeting Type"
 msgstr "Tipo de reunión"
 
 #: post-type/module-base.php:133
-#, fuzzy
 msgid "In Person Meeting"
-msgstr "Reuniones pasadas"
+msgstr "En persona Reunión"
 
 #: post-type/module-base.php:134
-#, fuzzy
 msgid "Face to Face Meeting"
-msgstr "Crear una reunión"
+msgstr "Encuentro cara a cara"
 
 #: post-type/module-base.php:137
-#, fuzzy
 msgid "Online Meeting"
-msgstr "Reuniones"
+msgstr "Reunión en línea"
 
 #: post-type/module-base.php:138
 msgid "Online Audio or Video Call"
-msgstr ""
+msgstr "Llamada de audio o video en línea"
 
 #: post-type/module-base.php:144 post-type/module-base.php:266
 msgid "Attendees"
@@ -100,11 +96,11 @@ msgstr "Tipo de reuniones"
 
 #: post-type/module-base.php:259
 msgid "Default"
-msgstr ""
+msgstr "Por defecto"
 
 #: post-type/module-base.php:260
 msgid "General purpose"
-msgstr ""
+msgstr "Propósito general"
 
 #: tile/custom-tile.php:62 tile/custom-tile.php:123
 msgid "Create A Meeting"
