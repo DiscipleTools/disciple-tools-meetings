@@ -229,47 +229,6 @@ class Disciple_Tools_Meetings_Base  {
                 'tile' => 'disciple_tools_meetings',
                 'p2p_key' => 'meetings_to_groups'
             ];
-            $fields['date'] = [
-                'name' => __( 'Meetings Date', 'disciple-tools-meetings' ),
-                'type' => 'date',
-                'tile' => 'disciple_tools_meetings',
-                'in_create_form' => true
-            ];
-            $fields['meetings_topic'] = [
-                'name'        => __( 'Meeting Topic', 'disciple-tools-meetings' ),
-                'description' => _x( 'Topics discussed in the meeting', 'disciple-tools-meetings' ),
-                'type'        => 'text',
-                'default'     => '',
-                'tile' => 'disciple_tools_meetings',
-                'icon' => get_template_directory_uri() . '/dt-assets/images/edit.svg',
-            ];
-            $fields['meeting_notes'] = [
-                'name' => __( 'Meeting Notes', 'disciple-tools-meetings' ),
-                'type' => 'textarea',
-                'tile' => 'disciple_tools_meetings',
-            ];
-            $fields['type'] = [
-                'name' => __( 'Meetings Type', 'disciple-tools-meetings' ),
-                'type' => 'key_select',
-                'tile' => 'disciple_tools_meetings',
-                'in_create_form' => true,
-                'select_cannot_be_empty' => true,
-                'default' => apply_filters('disciple_tools_meetings_types', [
-                        'default' => [
-                            'label' => __( 'Default', 'disciple-tools-meetings' ),
-                            'description' => __( 'General purpose', 'disciple-tools-meetings' )
-                        ]
-                    ]
-                ),
-            ];
-            $fields['contacts'] = [
-                'name' => __( 'Attendees', 'disciple-tools-meetings' ),
-                'type' => 'connection',
-                'p2p_direction' => 'from',
-                'post_type' => 'contacts',
-                'tile' => 'disciple_tools_meetings',
-                'p2p_key' => 'meetings_to_contacts',
-            ];
         }
 
         return $fields;
