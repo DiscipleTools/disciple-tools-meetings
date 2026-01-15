@@ -1,17 +1,17 @@
-# Copyright (C) 2024 
+# Copyright (C) 2026 
 # This file is distributed under the same license as the Disciple.Tools - Meetings plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Disciple.Tools - Meetings 1.0.7\n"
+"Project-Id-Version: Disciple.Tools - Meetings 1.0.8\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disciple-tools-meetings\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-12-04T09:36:50+00:00\n"
+"POT-Creation-Date: 2026-01-15T14:36:30+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.11.0\n"
+"X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: disciple-tools-meetings\n"
 
 #: post-type/module-base.php:56
@@ -30,13 +30,11 @@ msgid "Date"
 msgstr ""
 
 #: post-type/module-base.php:113
-#: post-type/module-base.php:239
 #: tile/custom-tile.php:81
 msgid "Meeting Topic"
 msgstr ""
 
 #: post-type/module-base.php:121
-#: post-type/module-base.php:247
 #: tile/custom-tile.php:84
 msgid "Meeting Notes"
 msgstr ""
@@ -62,7 +60,6 @@ msgid "Online Audio or Video Call"
 msgstr ""
 
 #: post-type/module-base.php:144
-#: post-type/module-base.php:266
 msgid "Attendees"
 msgstr ""
 
@@ -85,22 +82,6 @@ msgstr ""
 
 #: post-type/module-base.php:215
 msgid "Leader of meetings"
-msgstr ""
-
-#: post-type/module-base.php:233
-msgid "Meetings Date"
-msgstr ""
-
-#: post-type/module-base.php:252
-msgid "Meetings Type"
-msgstr ""
-
-#: post-type/module-base.php:259
-msgid "Default"
-msgstr ""
-
-#: post-type/module-base.php:260
-msgid "General purpose"
 msgstr ""
 
 #: tile/custom-tile.php:62

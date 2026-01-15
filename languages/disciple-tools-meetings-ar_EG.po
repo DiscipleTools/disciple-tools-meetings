@@ -6,10 +6,10 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disciple-tools-"
 "meetings\n"
 "POT-Creation-Date: 2026-01-15T14:36:30+00:00\n"
-"PO-Revision-Date: 2026-01-15 00:00+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: ml\n"
+"PO-Revision-Date: 2026-01-15 12:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Arabic (Egypt)\n"
+"Language: ar_EG\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,86 +18,86 @@ msgstr ""
 
 #: post-type/module-base.php:56
 msgid "Meeting"
-msgstr "യോഗം"
+msgstr "اجتماع"
 
 #: post-type/module-base.php:57 post-type/module-base.php:206
 #: post-type/module-base.php:225 tile/custom-tile.php:32
 msgid "Meetings"
-msgstr "യോഗങ്ങൾ"
+msgstr "الاجتماعات"
 
 #: post-type/module-base.php:107
 msgid "Date"
-msgstr "തീയതി"
+msgstr "التاريخ"
 
 #: post-type/module-base.php:113 tile/custom-tile.php:81
 msgid "Meeting Topic"
-msgstr "യോഗ വിഷയം"
+msgstr "موضوع الاجتماع"
 
 #: post-type/module-base.php:121 tile/custom-tile.php:84
 msgid "Meeting Notes"
-msgstr "യോഗ കുറിപ്പുകൾ"
+msgstr "ملاحظات الاجتماع"
 
 #: post-type/module-base.php:126
 msgid "Meeting Type"
-msgstr "യോഗ തരം"
+msgstr "نوع الاجتماع"
 
 #: post-type/module-base.php:133
 msgid "In Person Meeting"
-msgstr "നേരിട്ടുള്ള യോഗം"
+msgstr "اجتماع حضوري"
 
 #: post-type/module-base.php:134
 msgid "Face to Face Meeting"
-msgstr "മുഖാമുഖ യോഗം"
+msgstr "اجتماع وجها لوجه"
 
 #: post-type/module-base.php:137
 msgid "Online Meeting"
-msgstr "ഓൺലൈൻ യോഗം"
+msgstr "اجتماع عبر الإنترنت"
 
 #: post-type/module-base.php:138
 msgid "Online Audio or Video Call"
-msgstr "ഓൺലൈൻ ഓഡിയോ അല്ലെങ്കിൽ വീഡിയോ കോൾ"
+msgstr "مكالمة صوتية أو فيديو عبر الإنترنت"
 
 #: post-type/module-base.php:144
 msgid "Attendees"
-msgstr "പങ്കെടുക്കുന്നവർ"
+msgstr "الحاضرين"
 
 #: post-type/module-base.php:152
 msgid "Assigned To"
-msgstr "ചുമതലപ്പെടുത്തിയത്"
+msgstr "مسؤول عنه"
 
 #: post-type/module-base.php:162
 msgid "Leaders"
-msgstr "നേതാക്കൾ"
+msgstr "القادة"
 
 #: post-type/module-base.php:170
 msgid "Group"
-msgstr "ഗ്രൂപ്പ്"
+msgstr "المجموعة"
 
 #: post-type/module-base.php:196
 msgctxt "Optional Documentation"
 msgid "The members who attended this meeting."
-msgstr "ഈ യോഗത്തിൽ പങ്കെടുത്ത അംഗങ്ങൾ."
+msgstr "الأعضاء الذين حضروا هذا الاجتماع."
 
 #: post-type/module-base.php:215
 msgid "Leader of meetings"
-msgstr "യോഗങ്ങളുടെ നേതാവ്"
+msgstr "قائد الاجتماعات"
 
 #: tile/custom-tile.php:62 tile/custom-tile.php:123
 msgid "Create A Meeting"
-msgstr "ഒരു യോഗം സൃഷ്ടിക്കുക"
+msgstr "إنشاء اجتماع"
 
 #: tile/custom-tile.php:64
 msgid "Who Attended the Meeting?"
-msgstr "യോഗത്തിൽ ആരൊക്കെ പങ്കെടുത്തു?"
+msgstr "من حضر الاجتماع؟"
 
 #: tile/custom-tile.php:73
 msgid "Meeting Date"
-msgstr "യോഗ തീയതി"
+msgstr "تاريخ الاجتماع"
 
 #: tile/custom-tile.php:95
 msgid "Add A Meeting"
-msgstr "ഒരു യോഗം ചേർക്കുക"
+msgstr "إضافة اجتماع"
 
 #: tile/custom-tile.php:116
 msgid "Past Meetings"
-msgstr "കഴിഞ്ഞ യോഗങ്ങൾ"
+msgstr "الاجتماعات السابقة"

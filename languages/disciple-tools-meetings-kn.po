@@ -1,12 +1,12 @@
-# Copyright (C) 2023 
+# Copyright (C) 2023
 # This file is distributed under the same license as the Disciple.Tools - Meetings plugin.
 msgid ""
 msgstr ""
 "Project-Id-Version: Disciple.Tools - Meetings 1.0.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disciple-tools-"
 "meetings\n"
-"POT-Creation-Date: 2024-05-14T09:10:44+00:00\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2026-01-15T14:36:30+00:00\n"
+"PO-Revision-Date: 2026-01-15 00:00+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: kn\n"
@@ -18,104 +18,86 @@ msgstr ""
 
 #: post-type/module-base.php:56
 msgid "Meeting"
-msgstr ""
+msgstr "ಸಭೆ"
 
 #: post-type/module-base.php:57 post-type/module-base.php:206
 #: post-type/module-base.php:225 tile/custom-tile.php:32
 msgid "Meetings"
-msgstr ""
+msgstr "ಸಭೆಗಳು"
 
 #: post-type/module-base.php:107
 msgid "Date"
-msgstr ""
+msgstr "ದಿನಾಂಕ"
 
-#: post-type/module-base.php:113 post-type/module-base.php:239
-#: tile/custom-tile.php:81
+#: post-type/module-base.php:113 tile/custom-tile.php:81
 msgid "Meeting Topic"
-msgstr ""
+msgstr "ಸಭೆಯ ವಿಷಯ"
 
-#: post-type/module-base.php:121 post-type/module-base.php:247
-#: tile/custom-tile.php:84
+#: post-type/module-base.php:121 tile/custom-tile.php:84
 msgid "Meeting Notes"
-msgstr ""
+msgstr "ಸಭೆಯ ಟಿಪ್ಪಣಿಗಳು"
 
 #: post-type/module-base.php:126
 msgid "Meeting Type"
-msgstr ""
+msgstr "ಸಭೆಯ ಪ್ರಕಾರ"
 
 #: post-type/module-base.php:133
 msgid "In Person Meeting"
-msgstr ""
+msgstr "ಮುಖಾಮುಖಿ ಸಭೆ"
 
 #: post-type/module-base.php:134
 msgid "Face to Face Meeting"
-msgstr ""
+msgstr "ನೇರ ಭೇಟಿ ಸಭೆ"
 
 #: post-type/module-base.php:137
 msgid "Online Meeting"
-msgstr ""
+msgstr "ಆನ್‌ಲೈನ್ ಸಭೆ"
 
 #: post-type/module-base.php:138
 msgid "Online Audio or Video Call"
-msgstr ""
+msgstr "ಆನ್‌ಲೈನ್ ಆಡಿಯೋ ಅಥವಾ ವೀಡಿಯೋ ಕರೆ"
 
-#: post-type/module-base.php:144 post-type/module-base.php:266
+#: post-type/module-base.php:144
 msgid "Attendees"
-msgstr ""
+msgstr "ಹಾಜರಾದವರು"
 
 #: post-type/module-base.php:152
 msgid "Assigned To"
-msgstr ""
+msgstr "ನಿಯೋಜಿತರು"
 
 #: post-type/module-base.php:162
 msgid "Leaders"
-msgstr ""
+msgstr "ನಾಯಕರು"
 
 #: post-type/module-base.php:170
 msgid "Group"
-msgstr ""
+msgstr "ಗುಂಪು"
 
 #: post-type/module-base.php:196
 msgctxt "Optional Documentation"
 msgid "The members who attended this meeting."
-msgstr ""
+msgstr "ಈ ಸಭೆಯಲ್ಲಿ ಹಾಜರಾದ ಸದಸ್ಯರು."
 
 #: post-type/module-base.php:215
 msgid "Leader of meetings"
-msgstr ""
-
-#: post-type/module-base.php:233
-msgid "Meetings Date"
-msgstr ""
-
-#: post-type/module-base.php:252
-msgid "Meetings Type"
-msgstr ""
-
-#: post-type/module-base.php:259
-msgid "Default"
-msgstr ""
-
-#: post-type/module-base.php:260
-msgid "General purpose"
-msgstr ""
+msgstr "ಸಭೆಗಳ ನಾಯಕ"
 
 #: tile/custom-tile.php:62 tile/custom-tile.php:123
 msgid "Create A Meeting"
-msgstr ""
+msgstr "ಸಭೆಯನ್ನು ರಚಿಸಿ"
 
 #: tile/custom-tile.php:64
 msgid "Who Attended the Meeting?"
-msgstr ""
+msgstr "ಸಭೆಯಲ್ಲಿ ಯಾರು ಹಾಜರಾಗಿದ್ದರು?"
 
 #: tile/custom-tile.php:73
 msgid "Meeting Date"
-msgstr ""
+msgstr "ಸಭೆಯ ದಿನಾಂಕ"
 
 #: tile/custom-tile.php:95
 msgid "Add A Meeting"
-msgstr ""
+msgstr "ಸಭೆಯನ್ನು ಸೇರಿಸಿ"
 
 #: tile/custom-tile.php:116
 msgid "Past Meetings"
-msgstr ""
+msgstr "ಹಿಂದಿನ ಸಭೆಗಳು"
