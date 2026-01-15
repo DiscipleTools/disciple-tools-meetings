@@ -103,18 +103,3 @@ msgstr "Aggiungi un Incontro"
 #: tile/custom-tile.php:116
 msgid "Past Meetings"
 msgstr "Incontri Precedenti"
-
-#~ msgid "Meetings Date"
-#~ msgstr "Data degli Incontri"
-
-#~ msgid "Meetings Type"
-#~ msgstr "Tipo degli Incontri"
-
-#~ msgid "Default"
-#~ msgstr "Default"
-
-#~ msgid "General purpose"
-#~ msgstr "Uso Generale"
-
-#~ msgid "Create A Meetings"
-#~ msgstr "Crea un Incontro"

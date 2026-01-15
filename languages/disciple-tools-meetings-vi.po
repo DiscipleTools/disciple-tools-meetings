@@ -103,15 +103,3 @@ msgstr "Thêm một cuộc gặp"
 #: tile/custom-tile.php:116
 msgid "Past Meetings"
 msgstr "Cuộc gặp trước đây"
-
-#~ msgid "Meetings Date"
-#~ msgstr "Ngày gặp"
-
-#~ msgid "Meetings Type"
-#~ msgstr "Hình thức"
-
-#~ msgid "Default"
-#~ msgstr "Mặc định"
-
-#~ msgid "General purpose"
-#~ msgstr "Mục đích chung"

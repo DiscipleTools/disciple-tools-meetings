@@ -104,15 +104,3 @@ msgstr "Dodaj sastanak"
 #: tile/custom-tile.php:116
 msgid "Past Meetings"
 msgstr "Prošli sastanci"
-
-#~ msgid "Meetings Date"
-#~ msgstr "Datum sastanka"
-
-#~ msgid "Meetings Type"
-#~ msgstr "Vrsta sastanka"
-
-#~ msgid "Default"
-#~ msgstr "Zadane postavke"
-
-#~ msgid "General purpose"
-#~ msgstr "Opće namjene"

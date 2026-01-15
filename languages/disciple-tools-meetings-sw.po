@@ -103,15 +103,3 @@ msgstr "Ongeza Mkutano"
 #: tile/custom-tile.php:116
 msgid "Past Meetings"
 msgstr "Mikutano Iliyopita"
-
-#~ msgid "Meetings Date"
-#~ msgstr "Tarehe ya Mikutano"
-
-#~ msgid "Meetings Type"
-#~ msgstr "Aina ya Mikutano"
-
-#~ msgid "Default"
-#~ msgstr "Chaguomsingi"
-
-#~ msgid "General purpose"
-#~ msgstr "Madhumuni ya jumla"

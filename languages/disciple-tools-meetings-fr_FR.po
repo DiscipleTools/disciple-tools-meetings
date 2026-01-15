@@ -109,15 +109,3 @@ msgstr "Ajouter une réunion"
 #: tile/custom-tile.php:116
 msgid "Past Meetings"
 msgstr "Réunions passées"
-
-#~ msgid "Meetings Date"
-#~ msgstr "Date des réunions"
-
-#~ msgid "Meetings Type"
-#~ msgstr "Type de réunions"
-
-#~ msgid "Default"
-#~ msgstr "Défaut"
-
-#~ msgid "General purpose"
-#~ msgstr "Objet général"

@@ -101,15 +101,3 @@ msgstr "ስብሰባ ያክሉ"
 #: tile/custom-tile.php:116
 msgid "Past Meetings"
 msgstr "ያለፉ ስብሰባዎች"
-
-#~ msgid "Meetings Date"
-#~ msgstr "የስብሰባዎች ቀን"
-
-#~ msgid "Meetings Type"
-#~ msgstr "የስብሰባዎች ዓይነት"
-
-#~ msgid "Default"
-#~ msgstr "ነባሪ"
-
-#~ msgid "General purpose"
-#~ msgstr "አጠቃላይ ዓላማ"

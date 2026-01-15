@@ -103,12 +103,3 @@ msgstr "Añadir una reunión"
 #: tile/custom-tile.php:116
 msgid "Past Meetings"
 msgstr "Reuniones pasadas"
-
-#~ msgid "Meetings Date"
-#~ msgstr "Fecha de reuniones"
-
-#~ msgid "Meetings Type"
-#~ msgstr "Tipo de reuniones"
-
-#~ msgid "Create A Meetings"
-#~ msgstr "Crear una reunión"

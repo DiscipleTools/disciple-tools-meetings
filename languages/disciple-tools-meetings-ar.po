@@ -101,15 +101,3 @@ msgstr "إضافة اجتماع"
 #: tile/custom-tile.php:116
 msgid "Past Meetings"
 msgstr "الاجتماعات السابقة"
-
-#~ msgid "Meetings Date"
-#~ msgstr "تاريخ الاجتماعات"
-
-#~ msgid "Meetings Type"
-#~ msgstr "نوع الاجتماعات"
-
-#~ msgid "Default"
-#~ msgstr "افتراضي"
-
-#~ msgid "General purpose"
-#~ msgstr "غرض عام"
