@@ -1,15 +1,15 @@
-# Copyright (C) 2023 
+# Copyright (C) 2023
 # This file is distributed under the same license as the Disciple.Tools - Meetings plugin.
 msgid ""
 msgstr ""
 "Project-Id-Version: Disciple.Tools - Meetings 1.0.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disciple-tools-"
 "meetings\n"
-"POT-Creation-Date: 2024-05-14T09:10:44+00:00\n"
-"PO-Revision-Date: 2024-09-17 07:59+0000\n"
+"POT-Creation-Date: 2026-01-15T14:36:30+00:00\n"
+"PO-Revision-Date: 2026-01-15 00:00+0000\n"
 "Last-Translator: Kyle Koval <kyle.koval@gmail.com>\n"
-"Language-Team: Italian <https://translate.disciple.tools/projects/"
-"disciple-tools/disciple-tools-meetings/it_IT/>\n"
+"Language-Team: Italian <https://translate.disciple.tools/projects/disciple-"
+"tools/disciple-tools-meetings/it_IT/>\n"
 "Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,15 +31,13 @@ msgstr "Incontri"
 msgid "Date"
 msgstr "Data"
 
-#: post-type/module-base.php:113 post-type/module-base.php:239
-#: tile/custom-tile.php:81
+#: post-type/module-base.php:113 tile/custom-tile.php:81
 msgid "Meeting Topic"
 msgstr "Argomento dell'Incontro"
 
-#: post-type/module-base.php:121 post-type/module-base.php:247
-#: tile/custom-tile.php:84
+#: post-type/module-base.php:121 tile/custom-tile.php:84
 msgid "Meeting Notes"
-msgstr "Appunti dall'Incontro"
+msgstr "Appunti dell'Incontro"
 
 #: post-type/module-base.php:126
 msgid "Meeting Type"
@@ -47,7 +45,7 @@ msgstr "Tipo di Incontro"
 
 #: post-type/module-base.php:133
 msgid "In Person Meeting"
-msgstr "Incontro Dal Vivo"
+msgstr "Incontro dal Vivo"
 
 #: post-type/module-base.php:134
 msgid "Face to Face Meeting"
@@ -59,9 +57,9 @@ msgstr "Incontro Online"
 
 #: post-type/module-base.php:138
 msgid "Online Audio or Video Call"
-msgstr "Audio Online o Videochiamata"
+msgstr "Chiamata Audio o Video Online"
 
-#: post-type/module-base.php:144 post-type/module-base.php:266
+#: post-type/module-base.php:144
 msgid "Attendees"
 msgstr "Partecipanti"
 
@@ -71,7 +69,7 @@ msgstr "Assegnato a"
 
 #: post-type/module-base.php:162
 msgid "Leaders"
-msgstr "I Leader"
+msgstr "Leader"
 
 #: post-type/module-base.php:170
 msgid "Group"
@@ -85,22 +83,6 @@ msgstr "I membri che hanno partecipato a questo incontro."
 #: post-type/module-base.php:215
 msgid "Leader of meetings"
 msgstr "Leader degli incontri"
-
-#: post-type/module-base.php:233
-msgid "Meetings Date"
-msgstr "Data degli Incontri"
-
-#: post-type/module-base.php:252
-msgid "Meetings Type"
-msgstr "Tipo degli Incontri"
-
-#: post-type/module-base.php:259
-msgid "Default"
-msgstr "Default"
-
-#: post-type/module-base.php:260
-msgid "General purpose"
-msgstr "Uso Generale"
 
 #: tile/custom-tile.php:62 tile/custom-tile.php:123
 msgid "Create A Meeting"
@@ -116,11 +98,8 @@ msgstr "Data dell'Incontro"
 
 #: tile/custom-tile.php:95
 msgid "Add A Meeting"
-msgstr "Aggiungere un Incontro"
+msgstr "Aggiungi un Incontro"
 
 #: tile/custom-tile.php:116
 msgid "Past Meetings"
-msgstr "Precedenti Incontri"
-
-#~ msgid "Create A Meetings"
-#~ msgstr "Crea un Incontro"
+msgstr "Incontri Precedenti"
