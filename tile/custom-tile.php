@@ -222,7 +222,7 @@ class Disciple_Tools_Meetings_Tile
                     "groups": {
                         "values": [
                             {
-                                "value": <?php echo get_the_ID(); ?>
+                                "value": <?php echo esc_js( get_the_ID() ); ?>
                             }
                         ]
                     },
